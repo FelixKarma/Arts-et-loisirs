@@ -1,13 +1,13 @@
 @font-face {
   font-family: Jeju;
-  src: url(JejuHallasan-Regular.ttf);
+  src: url(../JejuHallasan-Regular.ttf);
   font-weight: bold;
   font-size: xx-large;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(Roboto/Roboto-Medium.ttf);
+  src: url(../Roboto/Roboto-Regular.ttf);
 }
 
 .headertitre {
