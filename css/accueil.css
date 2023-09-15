@@ -23,31 +23,36 @@
   font-size: medium;
   vertical-align: middle;
   background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
+  padding: 10px;
   text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.boutonheader:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 .searchheader {
   vertical-align: middle;
   text-align: left;
+  border-radius: 5px;
 }
 
 header {
-  text-align: center;
-  vertical-align: middle;
   color: black;
   background-color: white;
   border-radius: 15px;
-  width: 60%;
+  width: 80%;
   margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
 }
 
 body {
-font-family: Roboto;
-background-color: #D9D9D9;
+  font-family: Roboto;
+  background-color: #D9D9D9;
 }
