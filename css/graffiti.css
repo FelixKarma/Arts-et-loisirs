@@ -1,0 +1,27 @@
+span{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+.gras{ text-align: center;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body{
+    background: color #d9d9d9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15%;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+
+
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: xx-large;
+}
