@@ -45,3 +45,27 @@ header {
   justify-content: space-evenly;
   display: flex;
 }
+
+body {
+  background-color: #D9D9D9;
+}
+
+.articlesrec {
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 200px;
+  margin-left: 80px;
+  text-decoration: underline;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
+}
+
+.articlesrecents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
