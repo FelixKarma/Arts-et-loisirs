@@ -1,0 +1,49 @@
+body {
+    background: color #d9d9d9;
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin: 20%;
+    text-align: ;
+
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+h3 {
+    margin-left: 20px;
+    color: red;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+#bella {
+    justify-content: center;
+    width: 1000px;
+    height: 1000px;
+    px;
+}
+
+p:first-letter {
+
+    margin-left: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
