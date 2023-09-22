@@ -69,3 +69,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+img {
+  border-radius: 25px;
+}
