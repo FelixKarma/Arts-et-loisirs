@@ -22,9 +22,12 @@ h2{
 }
 figcaption{font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
+    text-align-last: center;
 
     
 }
-nav{
-    display: flex;
+
+
+#energieebaum{ height: 1000px; width: 1000px;
+
 }
