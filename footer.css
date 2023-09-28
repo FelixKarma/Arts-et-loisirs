@@ -1,0 +1,12 @@
+footer {
+  background-color: grey;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav > * {
+  width: 33%;
+  text-align: center;
+}
+#cgv{color: black;}
