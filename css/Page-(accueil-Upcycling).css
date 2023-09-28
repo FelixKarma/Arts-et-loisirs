@@ -1,27 +1,118 @@
-h1 {
-    color: black; 
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: Jeju;
+    src: url(../JejuHallasan-Regular.ttf);
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .headertitre {
+    font-family: 'Jeju';
+    font-size: 35px;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .boutonheader {
+    font-family: 'Roboto';
+    font-size: 20px;
+    vertical-align: middle;
+    background: none;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+  }
+  
+  .boutonheader:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  header {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  body {
+    background-color: #D9D9D9;
+  }
+  
+  .articlesrec {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 200px;
+    margin-left: 80px;
+    text-decoration: underline;
+  }
+
+.grosTitre{
+ font-size: 35px;
+ }
+
+.alfredoLongo {
+text-align: center;
+font-size: 30px;
+color: black;
 }
-h2 {
-   color: black;
+
+.timothyNobleEtSusanWebster {
+text-align: center;
+font-size: 30px;
+color: black;
 }
+
+.khalilChishtee {
+text-align: center;
+font-size: 30px;
+color: black;
+}
+
+.nickGentry {
+text-align: center;
+font-size: 30px;
+color: black;
+}
+
 p {
+  font-size: 25px;
    color: black;
 }
+
 h1, h2, p {
     text-align: center;
-    font-family: roboto;
+    font-family: 'Roboto';
 }
+
 img {
     opacity: 0.8;
+    border: 5px solid black;
+    border-radius: 10%;
+    margin: auto;
 }
+
 #conteneur{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-img {
-    border: 5px solid black;
-    border-radius: 10%;
-}
+
 body {
     background-color: #d9d9d9 ;
+}
+table{
+  width: 100%;
+  text-align: center;
 }
