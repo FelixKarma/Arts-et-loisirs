@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Jeju;
+    src: url(../JejuHallasan-Regular.ttf);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.headertitre {
+    font-family: 'Jeju';
+    font-size: 35px;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+}
+
+.boutonheader {
+    font-family: 'Roboto';
+    font-size: 20px;
+    vertical-align: middle;
+    background: none;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+.boutonheader:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+header {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.titreup {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.defup {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* font-size: 20px; */
+    width: 600px;
+}
+
+main {
+    font-family: Roboto;
+}
+
+.articleup {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 80px;
+    text-decoration: underline;
+}
+
+.touslesarticles {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 25px;
+}
