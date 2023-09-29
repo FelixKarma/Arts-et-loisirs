@@ -2,38 +2,16 @@ footer {
   background-color: #D9D9D9;
 }
 
-.footerclass {
-  display: flex;
-}
-
 .divfooter1 {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .divfooter2 {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-} 
-
-.logo {
-  margin-right: 50px;
-  margin-left: 150px;
-  margin-bottom: 30px;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
 }
 
-.rtvnous {
-  display: flex;
-align-self: center;
-  margin-bottom: 30px;
-}
 
 .cgv {
   text-decoration: none;
@@ -44,4 +22,5 @@ align-self: center;
 .copy {
   text-decoration: double;
   text-decoration: underline;
+  margin-left: -150px;
 }
