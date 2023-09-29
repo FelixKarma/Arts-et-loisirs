@@ -43,7 +43,7 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
-  display: flex;
+  position: fixed;
 }
 
 body {
