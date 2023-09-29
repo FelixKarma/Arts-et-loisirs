@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: Jeju;
+    src: url(../JejuHallasan-Regular.ttf);
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .headertitre {
+    font-family: 'Jeju';
+    font-size: 35px;
+    vertical-align: middle;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .boutonheader {
+    font-family: 'Roboto';
+    font-size: 20px;
+    vertical-align: middle;
+    background: none;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    color: black;
+  }
+  
+  .boutonheader:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  header {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  body {
+    background-color: #D9D9D9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    
+  }
+  main{
+
+    margin: 20%;
+
+  }
+  h1{
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+
+  }
+  h2{
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+  }
+h3{
+    font-size: larger;
+    text-decoration: underline;
+    text-align: left;
+    color: red;
+}
+.divfooter2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  } 
+  h1,h2{
+    margin-top: 5%;
+  }
+  img{
+    width: 1000;
+    height: 1000;
+  }
