@@ -33,7 +33,7 @@
     text-decoration: underline;
     color: black;
   }
-  
+
   
   
   header {
@@ -54,11 +54,9 @@
     font-size: larger;
     
   }
-  main{
 
-    margin: 20%;
 
-  }
+
   h1{
     font-size: xx-large;
     text-decoration: underline;
@@ -85,4 +83,14 @@ h3{
   } 
   h1,h2{
     margin-top: 5%;
+  }
+  
+
+
+  
+
+  main{
+    text-align: center;
+    margin: 20%;
+
   }
