@@ -88,7 +88,9 @@ color: black;
 
 p {
   font-size: 25px;
-   color: black;
+  color: black;
+  margin: auto;
+  padding: 100px;
 }
 
 h1, h2, p {
@@ -116,3 +118,12 @@ table{
   width: 100%;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
