@@ -93,6 +93,13 @@ font-size: 30px;
 color: black;
 }
 
+td a img {
+background-color: black;
+}
+td a img:hover {
+opacity: 1;
+}
+
 p {
   font-size: 25px;
   color: black;
@@ -106,7 +113,7 @@ h1, h2, p {
 }
 
 img {
-    opacity: 0.8;
+    opacity: 0.5;
     border: 5px solid black;
     border-radius: 10%;
     margin: auto;
