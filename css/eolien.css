@@ -33,9 +33,7 @@
   text-decoration: underline;
   color: black;
 }
-main{
-  margin: 5%;
-}
+
 
 header {
   color: black;
@@ -92,10 +90,13 @@ h3{
   width: 500px;
   margin-left: 10%;
  }
- #ecol1:,#ecol2,#ecol5{
+ #ecol1,#ecol2,#ecol5{
   height: 500px;
   width: 500px;
   margin-left: 10%;
+ }
+ main{
+  margin: 5%;
  }
   
 

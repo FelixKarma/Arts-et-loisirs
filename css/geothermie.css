@@ -4,10 +4,7 @@
       font-size: x-large;
     
     }
-    main{ 
-      text-align: left;
-      padding: 10%;
-    }
+  
 #geothermie{
 width: 700px;
 height: 700px;
@@ -77,7 +74,7 @@ h1{
   font-size: xx-large;
   text-align: center;
   text-decoration: underline;
-  margin-top: 5%;
+
 
 }
 h2{
@@ -91,7 +88,8 @@ h3{
   font-size: larger;
   text-align:left;
   text-decoration: underline;
-  color: red;
-margin-left: 20%;}
-
+  color: red;}
+main{
+  margin: 5%;
+}
   
