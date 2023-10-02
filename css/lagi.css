@@ -1,50 +1,4 @@
-@font-face {
-  font-family: Roboto;
-  src: url(Roboto/Roboto-Medium.ttf);
-}
 
-@font-face {
-  font-family: Jeju;
-  src: url(../JejuHallasan-Regular.ttf);
-  font-weight: bold;
-  font-size: xx-large;
-}
-
-.headertitre {
-  font-family: 'Jeju';
-  font-size: 35px;
-  vertical-align: middle;
-  color: black;
-  text-decoration: none;
-}
-
-.boutonheader {
-  font-family: 'Roboto';
-  font-size: 20px;
-  vertical-align: middle;
-  background: none;
-  padding: 10px;
-  text-decoration: none;
-  border: none;
-  color: black;
-}
-
-.boutonheader:hover {
-  text-decoration: underline;
-  color: black;
-}
-
-header {
-  color: black;
-  background-color: white;
-  border-radius: 15px;
-  width: 80%;
-  margin: auto;
-  padding: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  display: flex;
-}
 body{
     background-color: #d9d9d9;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +6,7 @@ body{
   }
   
 main{
-  margin: 20%;
+  margin: 5%;
 
 }
 .a{
@@ -79,6 +33,72 @@ figcaption{font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-#energieebaum{ height: 1000px; width: 1000px;
+#energieebaum{ height: 700px; width: 700px;
 
 }
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: Jeju;
+  src: url(../JejuHallasan-Regular.ttf);
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.headertitre {
+  font-family: 'Jeju';
+  font-size: 35px;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+}
+
+.boutonheader,#art {
+  font-family: 'Roboto';
+  font-size: 20px;
+  vertical-align: middle;
+  background: none;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.boutonheader,#art:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+body{
+  background-color: #d9d9d9;
+}
+#art{
+  text-decoration: underline;
+}
+.divfooter2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} 
+
+ 
+
+
+
+
