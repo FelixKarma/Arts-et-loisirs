@@ -1,5 +1,11 @@
-
-@font-face {
+  
+  .divfooter2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  } 
+  @font-face {
     font-family: Roboto;
     src: url(Roboto/Roboto-Medium.ttf);
   }
@@ -10,15 +16,7 @@
     font-weight: bold;
     font-size: xx-large;
   }
-  div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-    
   
-
   .headertitre {
     font-family: 'Jeju';
     font-size: 35px;
@@ -42,7 +40,7 @@
     text-decoration: underline;
     color: black;
   }
-
+  
   header {
     color: black;
     background-color: white;
@@ -52,27 +50,18 @@
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
-    display: flex;}
- body{
-     background-image: url(../img/mandalas-1084082_1280.webp);
 
- }
- #art{
-  text-decoration: underline;
- }
+    text-align: center;
+  }
+  body{
+    background-color: #d9d9d9;
+  }
+  #art{
+    text-decoration: underline;
+  }
 
+   
 
- 
- nav{
-  text-align: center;
   
- }
- main{
-  display: flex;
-  flex-direction:column-reverse;
-  text-align: center;
-margin-bottom: 20%;
- }
- .logo{
-  text-decoration: overline;
- }
+ 
+  
