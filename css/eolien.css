@@ -33,9 +33,7 @@
   text-decoration: underline;
   color: black;
 }
-main{
-  margin: 5%;
-}
+
 
 header {
   color: black;
@@ -88,9 +86,17 @@ h3{
     justify-content: space-evenly;
   } 
  #ecol1,#ecol2,#ecol5{
-  height: 1000px;
-  width: 1000px;
+  height: 500px;
+  width: 500px;
   margin-left: 10%;
+ }
+ #ecol1,#ecol2,#ecol5{
+  height: 500px;
+  width: 500px;
+  margin-left: 10%;
+ }
+ main{
+  margin: 5%;
  }
   
 
