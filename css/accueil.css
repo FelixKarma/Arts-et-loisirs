@@ -77,3 +77,8 @@ body{
 #art{
   text-decoration: underline;
 }
+main{
+  margin: 5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
