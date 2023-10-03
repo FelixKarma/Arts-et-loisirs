@@ -8,8 +8,9 @@ body {
 }
 
 main {
-    font-family: Roboto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
+    font-size: large;
 }
 
 .titre {
