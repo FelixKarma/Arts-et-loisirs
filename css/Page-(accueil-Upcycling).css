@@ -108,7 +108,12 @@ h1, h2, .p1{
     text-align: center;
     font-family: 'Roboto';
 }
-
+#mag{
+  opacity: 0.5;
+  border: 5px solid black;
+  border-radius: 10%;
+  margin: auto;
+}
 
 #conteneur{
     display: flex;
@@ -131,13 +136,6 @@ main{
 
 
 
-  
-.divfooter2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-} 
 
 
 
