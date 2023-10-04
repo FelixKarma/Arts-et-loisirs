@@ -70,7 +70,7 @@
         
         La couleur d’une lumière dépend d'une grandeur physique : sa longueur d’onde associée. <br>
         
-        <input type="radio" name="question2" id="correct1"> Vrai  <br>
+        <input type="radio" name="question2" id="correct2"> Vrai  <br>
         <input type="radio" name="question2" > Faux <br><br>
         
         <!--La couleur d’une lumière est directement liée à la nature du champ électromagnétique et à la longueur d’onde qui lui est associée-->
@@ -80,7 +80,7 @@
         
         On peut utiliser un prisme en verre pour disperser les différentes composantes d’une lumière blanche. <br>
         
-        <input type="radio" name="question3" id="correct1"> Vrai <br>
+        <input type="radio" name="question3" id="correct3"> Vrai <br>
         <input type="radio" name="question3" > Faux <br><br>
         
         <!--Après passage à travers un prisme, chacune des lumières colorées emprunte une direction différente.-->
@@ -90,7 +90,7 @@
         
         Étymologiquement, le mot « couleur » vient du latin. <br>
         
-        <input type="radio" name="question4" id="correct1"> Vrai<br>
+        <input type="radio" name="question4" id="correct4"> Vrai<br>
         <input type="radio" name="question4" > Faux <br> <br>
         <!--Le mot « couleur » vient du mot latin « color », lui-même probablement rattaché au groupe du verbe « celare » qui veut dire « cacher » : en quelque sorte, la couleur appliquée sur un objet cache celui-ci et lui donne ainsi une apparence trompeuse.-->
         Question5: <br> <br>
@@ -98,7 +98,7 @@
         
         On obtient de la lumière blanche par superposition des lumières rouge, jaune et bleue. <br>
         
-        <input type="radio" name="question5" id="correct1"> Vrai <br>
+        <input type="radio" name="question5" id="correct5"> Vrai <br>
         <input type="radio" name="question5" > Faux <br><br>
         <!--La synthèse additive est liée à notre perception par le cerveau (grâce aux cônes dans l’œil qui réagissent différemment selon la longueur d’onde de la lumière observée),
             
@@ -108,7 +108,7 @@
             
             Le pointillisme est une des rares techniques de peinture qui utilise la synthèse additive. <br> <br>
             <!--Avec cette technique, on juxtapose des taches de couleurs, de manière à ce que leur taille soit suffisamment petite pour que l’œil du spectateur ne puisse les distinguer de loin. La couleur perçue résulte alors d’un mélange optique réalisé par l’œil.-->        
-            <input type="radio" name="question6" id="correct1"> Vrai <br>
+            <input type="radio" name="question6" id="correct6"> Vrai <br>
             <input type="radio" name="question6" > Faux <br> <br>
             
             Question7:  <br><br>
@@ -117,7 +117,7 @@
             Les pigments utilisés en peinture sont tous naturels. <br>
             
             <input type="radio" name="question7" > vrai <br>
-            <input type="radio" name="question7" id="correct1"> Faux <br><br>
+            <input type="radio" name="question7" id="correct7"> Faux <br><br>
             
             <!--Les pigments, substances colorantes insolubles dans le milieu qu’elles colorent, étaient tous des produits naturels jusqu’au XIXe siècle, époque à partir de laquelle les progrès de la chimie ont permis de les synthétiser en grand nombre. Aujourd’hui, les pigments peuvent être naturels ou issus de la synthèse, d’origine minérale, animale ou organique.-->
             Question8: <br><br>
@@ -126,7 +126,7 @@
             Ce pigment jaune naturel a seulement été utilisé par l’Égypte antique. <br>
             
             <input type="radio" name="question8" > vrai <br>
-            <input type="radio" name="question8" id="correct1"> Faux <br> <br>
+            <input type="radio" name="question8" id="correct8"> Faux <br> <br>
             <!--En effet, ce pigment jaune, un composé d’arsenic et de soufre de formule chimique As2S3, a été fabriqué au Moyen Âge en fondant un mélange de soufre S et de sulfure d’arsenic AsS.-->
             
             Question9: <br><br>
@@ -136,7 +136,7 @@
             
             
             
-            <input type="radio" name="question9" id="correct1"> Vrai<br>
+            <input type="radio" name="question9" id="correct9"> Vrai<br>
             <input type="radio" name="question9" > Faux<br> <br>
             <!--En effet, ces sous-couches de pigments blancs ont pour but de renvoyer les rayons lumineux et d’imprimer au tableau le plus de luminosité possible.
                 
@@ -157,8 +157,33 @@
                         {
                             score++;
                         }
+                        if (document.getElementById('correct2').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct3').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct4').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct5').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct6').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct7').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct8').checked)
+                        {
+                            score++;
+                        } if (document.getElementById('correct9').checked)
+                        {
+                            score++;
+                        }
                         
-                        document.write(""your score is:"+score")
+                        document.write (" your score is:" +score) ;
                     })
                     
                     
