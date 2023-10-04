@@ -46,6 +46,13 @@ header {
 
   text-align: center;
 }
+
+body{
+  background-image: url(../img/OIP-\(Upcycling\).jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 body{
   background-color: #d9d9d9;
 }
