@@ -47,7 +47,7 @@
     text-align: center;
   }
   body{
-    background-image: url(../img/fond2.jpg);
+    background-image: url(../img/loisirs.png);
   }
   #art{
     text-decoration: underline;
@@ -62,9 +62,6 @@ section{
     text-align: center;
 
 }
-footer {
-    background-color: #D9D9D9;
-  }
   
   .divfooter1 {
     text-align: center;
