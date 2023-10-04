@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color: #D9D9D9;
+    background-image: url();
 }
 
 main {
-    font-family: Roboto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
+    font-size: large;
 }
 
 .titre {

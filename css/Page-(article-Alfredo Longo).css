@@ -54,8 +54,12 @@ body{
 }
 
 body{
+<<<<<<< HEAD
   background-color: #d9d9d9;
   
+=======
+  background-image: url(../img/fond2.jpg);
+>>>>>>> 4484c09c94d9738ba87a2bff2c2726d857b17293
 }
 #art{
   text-decoration: underline;

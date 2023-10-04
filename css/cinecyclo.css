@@ -1,5 +1,5 @@
 body{
-    background-color: #d9d9d9;
+    background-image: url(../img/cielnuit.png);
 }
 
 h1 {
@@ -121,4 +121,6 @@ header {
 }
 main{
     margin:5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }

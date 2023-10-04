@@ -66,8 +66,13 @@ span{
 
 font-family: Verdana, Geneva, Tahoma, sans-serif;}
 body{
-    background-color: #d9d9d9; 
-    font-size: large; 
+    background-image: url(../img/mur.jpg); 
+    
+    background-size: 100%;
+    background-position: fixed;
+  
+  
+
     
 
 }
@@ -89,4 +94,8 @@ section{
 }
 #graf1,#graf2{
     margin-left: 25%;
+}
+main{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
 }
