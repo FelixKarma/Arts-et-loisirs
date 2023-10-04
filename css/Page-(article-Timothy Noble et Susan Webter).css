@@ -51,10 +51,7 @@ body{
   background-image: url(../img/OIP-\(Upcycling\).jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-body{
-  background-image: url(../img/fond2.jpg);
+  background-attachment: fixed;
 }
 #art{
   text-decoration: underline;

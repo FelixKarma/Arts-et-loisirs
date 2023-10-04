@@ -45,11 +45,13 @@ header {
   justify-content: space-evenly;
   
   text-align: center;
+
 }
 body{
   background-image: url(../img/OIP-\(Upcycling\).jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 #art{
