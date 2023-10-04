@@ -2,8 +2,8 @@
 
 .articlesrec {
   font-size: 20px;
-  margin-bottom: 30px;
-  margin-top: 200px;
+  margin-bottom: 5%;
+  margin-top: 5%;
   margin-left: 80px;
   text-decoration: underline;
 }
@@ -72,7 +72,7 @@ header {
   text-align: center;
 }
 body{
-  background-image: url(../img/fond2.jpg);
+  background-image: url(../img/yp.jpg);
 
 }
 #art{
@@ -85,4 +85,7 @@ main{
 }
 #sayakaganz2, #structure{
   margin-left: 20%;
+}
+#route{
+  margin-left: 15%;
 }

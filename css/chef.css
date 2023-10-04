@@ -29,8 +29,8 @@ h3 {
 
 #bella {
     justify-content: center;
-    width: 1000px;
-    height: 1000px;
+    width: 700px;
+    height: 700px;
 }
 
 p:first-letter {
@@ -99,7 +99,7 @@ p{
     text-align: center;
   }
   body{
-    background-image: url(../img/fond2.jpg);
+    background-image: url(../img/chef.jpg);
   }
   #art{
     text-decoration: underline;
