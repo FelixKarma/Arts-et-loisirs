@@ -20,7 +20,7 @@ search.addEventListener("keydown", function (event) {
             //On compare la recherche avec les différents éléments du tableau
             if (liste === recherche){
                 //On redirige vers la page recherchée si trouvée
-                document.location.assign(`liste.html#${listes}`);
+                document.location.assign(`${liste}.html`);
             //On passe reponse à true pour dire que c'est bon
             réponse = true;
             //On break pour casser la boucle for, au cas où on a plusieurs éléments dans le tableau après le resultat trouvé
