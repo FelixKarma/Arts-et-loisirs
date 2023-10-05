@@ -72,8 +72,10 @@ header {
   text-align: center;
 }
 body{
-  background-image: url(../img/yp.jpg);
-
+  background-image: url(../img/OIP-\(accueil\).jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 }
 #art{
   text-decoration: underline;
