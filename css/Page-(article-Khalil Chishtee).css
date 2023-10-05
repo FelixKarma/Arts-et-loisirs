@@ -60,14 +60,7 @@ body{
 main{
   margin: 5%;
 }
-
  
-
-
-
-
-
-  
   .articlesrec {
     font-size: 20px;
     margin-bottom: 30px;
@@ -91,7 +84,7 @@ h2 {
 }
 
 .p1 {
-  font-size: 20px;
+  font-size: 25px;
   color: black;
   margin: auto;
   padding-left: 100px;
