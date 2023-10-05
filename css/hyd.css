@@ -1,104 +1,104 @@
+body {
+  background-image: url(../img/fond2.jpg);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
 
-  
-  body {
-   background-image: url(../img/fond2.jpg);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    
-  }
-main{
+}
+
+main {
   margin: 5%;
 }
-  h1{
-    font-size: xx-large;
-    text-decoration: underline;
-    text-align: center;
 
-  }
-  h2{
-    font-size: x-large;
-    text-decoration: underline;
-    text-align: center;
-    color: blueviolet;
-  }
-h3{
-    font-size: larger;
-    text-decoration: underline;
-    text-align: left;
-    color: red;
+h1 {
+  font-size: xx-large;
+  text-decoration: underline;
+  text-align: center;
+
 }
+
+h2 {
+  font-size: x-large;
+  text-decoration: underline;
+  text-align: center;
+  color: blueviolet;
+}
+
+h3 {
+  font-size: larger;
+  text-decoration: underline;
+  text-align: left;
+  color: red;
+}
+
 .divfooter2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  } 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  @font-face {
-    font-family: Roboto;
-    src: url(Roboto/Roboto-Medium.ttf);
-  }
-  
-  @font-face {
-    font-family: Jeju;
-    src: url(../JejuHallasan-Regular.ttf);
-    font-weight: bold;
-    font-size: xx-large;
-  }
-  
-  .headertitre {
-    font-family: 'Jeju';
-    font-size: 35px;
-    vertical-align: middle;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .boutonheader,#art {
-    font-family: 'Roboto';
-    font-size: 20px;
-    vertical-align: middle;
-    background: none;
-    padding: 10px;
-    text-decoration: none;
-    border: none;
-    color: black;
-  }
-  
-  .boutonheader,#art:hover {
-    text-decoration: underline;
-    color: black;
-  }
-  
-  header {
-    color: black;
-    background-color: white;
-    border-radius: 15px;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-  
-    text-align: center;
-  }
-  body{
-    background-color: #d9d9d9;
-  }
-  #art{
-    text-decoration: underline;
-  }
- 
-  
-  .divfooter2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  } 
-   
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Medium.ttf);
+}
 
-  
- 
-  
+@font-face {
+  font-family: Jeju;
+  src: url(../JejuHallasan-Regular.ttf);
+  font-weight: bold;
+  font-size: xx-large;
+}
 
+.headertitre {
+  font-family: 'Jeju';
+  font-size: 35px;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+}
+
+.boutonheader,
+#art {
+  font-family: 'Roboto';
+  font-size: 20px;
+  vertical-align: middle;
+  background: none;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.boutonheader,
+#art:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+
+#art {
+  text-decoration: underline;
+}
+
+
+.divfooter2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

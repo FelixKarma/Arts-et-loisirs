@@ -1,101 +1,114 @@
 @font-face {
-    font-family: Roboto;
-    src: url(Roboto/Roboto-Medium.ttf);
-  }
-  
-  @font-face {
-    font-family: Jeju;
-    src: url(../JejuHallasan-Regular.ttf);
-    font-weight: bold;
-    font-size: xx-large;
-  }
-  
-  .headertitre {
-    font-family: 'Jeju';
-    font-size: 35px;
-    vertical-align: middle;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .boutonheader,#art {
-    font-family: 'Roboto';
-    font-size: 20px;
-    vertical-align: middle;
-    background: none;
-    padding: 10px;
-    text-decoration: none;
-    border: none;
-    color: black;
-  }
-  
-  .boutonheader,#art:hover {
-    text-decoration: underline;
-    color: black;
-  }
-  
-  header {
-    color: black;
-    background-color: white;
-    border-radius: 15px;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  
-  
-  #art{
-    text-decoration: underline;
-  }
-   
-  .divfooter2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  } 
-span{
-    color: red;
-    text-decoration: underline;
-    text-align: center;
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Medium.ttf);
 }
-.gras{ text-align: center;
 
-font-family: Verdana, Geneva, Tahoma, sans-serif;}
-body{
-    background-image: url(../img/mur.jpg); 
-    
-    background-size: 100%;
-    background-position: fixed;
-  
-  
-
-    
-
+@font-face {
+  font-family: Jeju;
+  src: url(../JejuHallasan-Regular.ttf);
+  font-weight: bold;
+  font-size: xx-large;
 }
-h1{
-    text-align: center;
-    text-decoration: underline;
-    font-size: xx-large;
+
+.headertitre {
+  font-family: 'Jeju';
+  font-size: 35px;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+}
+
+.boutonheader,
+#art {
+  font-family: 'Roboto';
+  font-size: 20px;
+  vertical-align: middle;
+  background: none;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.boutonheader,
+#art:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+header {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
 
 
+#art {
+  text-decoration: underline;
 }
-h2{
-    text-align: center;
-    color: blueviolet;
-    text-decoration: underline;
-    font-size: xx-large;
+
+.divfooter2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-section{
-    margin: 5%;
+
+span {
+  color: red;
+  text-decoration: underline;
+  text-align: center;
 }
-#graf1,#graf2{
-    margin-left: 25%;
+
+.gras {
+  text-align: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main{
+
+body {
+  background-image: url(../img/mur.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+
+
+
+
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+
+
+}
+
+h2 {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+section {
+  margin: 5%;
+}
+
+#graf1,
+#graf2 {
+  margin-left: 25%;
+}
+
+main {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
 }

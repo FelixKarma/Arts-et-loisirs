@@ -1,93 +1,103 @@
+@font-face {
+  font-family: Roboto;
+  src: url(Roboto/Roboto-Medium.ttf);
+}
 
 @font-face {
-    font-family: Roboto;
-    src: url(Roboto/Roboto-Medium.ttf);
-  }
-  
-  @font-face {
-    font-family: Jeju;
-    src: url(../JejuHallasan-Regular.ttf);
-    font-weight: bold;
-    font-size: xx-large;
-  }
-  main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  font-family: Jeju;
+  src: url(../JejuHallasan-Regular.ttf);
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 
-  .headertitre {
-    font-family: 'Jeju';
-    font-size: 35px;
-    vertical-align: middle;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .boutonheader,#art {
-    font-family: 'Roboto';
-    font-size: 20px;
-    vertical-align: middle;
-    background: none;
-    padding: 10px;
-    text-decoration: none;
-    border: none;
-    color: black;
-  }
-  
-  .boutonheader,#art:hover {
-    text-decoration: underline;
-    color: black;
-  }
+.headertitre {
+  font-family: 'Jeju';
+  font-size: 35px;
+  vertical-align: middle;
+  color: black;
+  text-decoration: none;
+}
 
-  header {
-    color: black;
-    background-color: white;
-    border-radius: 15px;
-    width: 80%;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    display: flex;}
- body{
-     background-image: url(../img/boutique.png);
+.boutonheader,
+#art {
+  font-family: 'Roboto';
+  font-size: 20px;
+  vertical-align: middle;
+  background: none;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  color: black;
+}
 
- }
- #art{
+.boutonheader,
+#art:hover {
   text-decoration: underline;
- }
+  color: black;
+}
 
-
- 
-
-  
-
- main{
+header {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
   display: flex;
-  flex-direction:column-reverse;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+body {
+  background-image: url(../img/boutique.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+#art {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
   text-align: center;
-margin-bottom: 20%;
- }
- .logo{
-  
+  margin-bottom: 20%;
+}
+
+.logo {
+
 
   text-decoration: overline;
-  
- }
-   
- .divfooter2 {
+
+}
+
+.divfooter2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  
-} 
-#cine{
+
+}
+
+#cine {
   margin-left: 33%;
 }
-#logo{
+
+#logo {
   margin-left: 50%;
 }

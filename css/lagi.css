@@ -1,41 +1,51 @@
+body {
+  background-image: url(../img/fond2.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
 
-body{
-    background-image: url(../img/fond2.jpg);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-  }
-  
-main{
+main {
   margin: 5%;
 
 }
-.a{
-    font-size: x-large;
-    color: red;
-    text-align: justify;
+
+.a {
+  font-size: x-large;
+  color: red;
+  text-align: justify;
 
 }
-h1{
-    font-size: xx-large;
-    text-align: center;
-    text-decoration: underline;
-}
-h2{
-    font-size: x-large;
-    color: blueviolet;
-    text-decoration: underline;
-}
-figcaption{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    text-align-last: center;
 
-    
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
 }
 
+h2 {
+  font-size: x-large;
+  color: blueviolet;
+  text-decoration: underline;
+}
 
-#energieebaum{ height: 700px; width: 700px;
+figcaption {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  text-align-last: center;
+
 
 }
+
+
+#energieebaum {
+  height: 700px;
+  width: 700px;
+
+}
+
 @font-face {
   font-family: Roboto;
   src: url(Roboto/Roboto-Medium.ttf);
@@ -56,7 +66,8 @@ figcaption{font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
 
-.boutonheader,#art {
+.boutonheader,
+#art {
   font-family: 'Roboto';
   font-size: 20px;
   vertical-align: middle;
@@ -67,7 +78,8 @@ figcaption{font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
 }
 
-.boutonheader,#art:hover {
+.boutonheader,
+#art:hover {
   text-decoration: underline;
   color: black;
 }
@@ -84,21 +96,14 @@ header {
 
   text-align: center;
 }
-body{
-  background-color: #d9d9d9;
-}
-#art{
+
+#art {
   text-decoration: underline;
 }
+
 .divfooter2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-} 
-
- 
-
-
-
-
+}
