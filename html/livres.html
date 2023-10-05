@@ -1,70 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title> Livres</title>
-    <link rel="stylesheet" href="livres.html">
+  <title> Livres</title>
+  <link rel="stylesheet" href="../css/livre.css">
 </head>
+
 <body>
-    <main>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="../img/arbreeolien.jpg" class="card-img-top" alt="ecolo" height="200"
-                  width="200">
-                <div class="card-body">
-                  <h5 class="card-title">Ateliers et Loisirs</h5><br>
-                  <a
-                    href="../html/Ateliersetloisirs.html"><button>Participer</button></a>
-                </div>
-              </div>
-            </div> <br>
-            <br>
-            <br>
-    
-            <div class="col">
-              <div class="card">
-                <img src="../img/Ode-aux-eoliennes-Copie-1524x1536.jpg" class="card-img-top" alt="bella" height="200" width="200">
-                <div class="card-body">
-                  <h5 class="card-title"> Peintures <br></h5><br>
-                  <a href="../html/chef.html"> <button>Visiter</button></a><br>
-                </div>
-              </div>
+  <main>
+
+
+    <div class="series-frame">
+      <h2>Art et Energies</h2>
+      <p id="lionel-info">Note moyenne: <span id="lionel-score"></span></p>
+    </div>
+    <div class="series-frame">
+      <h2>La communication responsable</h2>
+      <p id="alice-info">Note moyenne: <span id="alice-score"></span></p>
+    </div>
+    <div class="series-frame">
+      <h2> Art & Energy</h2>
+      <p id=" barry-info">Note moyenne: <span id="barry-score"></span></p>
+    </div>
+
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="../img/alice Audouin.jpg" class="card-img-top" alt="Alice" height="500" width="500">
+          <div class="card-body">
+            <h5 class="card-title"> La communication responsable</h5><br>
+            <div class="d-flex justify-content-between">
+              <a
+                href="https://www.eyrolles.com/Entreprise/Livre/la-communication-responsable-9782212547986/"><button>Consulter</button></a>
+              <h6 id="note1"></h6>
             </div>
-            <br><br>
-    
-            <div class="col">
-              <div class="card">
-                <img src="../img/art energy.jpg" class="card-img-top" alt="cinécyecole" height="200" width="200">
-                <div class="card-body">
-                  <h5 class="card-title">Art & Energy</h5><br>
-                  <a href=""> <button> Acheter</button></a><br>
-                </div>
-              </div>
-            </div>
+
           </div>
-          <br> <br>
-          <span>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col" id="cine">
-            <div class="card">
-              <img src="../img/crecycling ciné.png" class="card-img-top" alt="cinéma" height="200" width="200">
-              <div class="card-body">
-                <h5 class="card-title">Ticketage</h5><br>
-                <a
-                  href="../html/recyclingciné.html"><button>Acheter</button></a><br>
-              </div>
+        </div>
+      </div> <br>
+      <br>
+      <br>
+
+      <div class="col">
+        <div class="card">
+          <img src="../img/lionelrichard.jpg" class="card-img-top" alt="" height="500" width="500">
+          <div class="card-body">
+            <h5 class="card-title"> Art et energies <br></h5><br>
+            <div class="d-flex justify-content-between">
+              <a href="https://www.amazon.fr/Art-%C3%A9nergies-Lionel-Richard/dp/2702208657">
+                <button>Consulter</button></a><br>
+              <h6 id="note2"></h6>
             </div>
           </div>
         </div>
-        </span>
+      </div>
+      <br><br>
 
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      <div class="col">
+        <div class="card">
+          <img src="../img/art energy.jpg" class="card-img-top" alt="cinécyecole" height="500" width="500">
+          <div class="card-body">
+            <h5 class="card-title">Art & Energy</h5><br>
+            <div class="d-flex justify-content-between">
+              <a href="https://www.fnac.com/livre-numerique/a10640178/Barry-Lord-Art-et-Energy#omnsearchpos=1"> <button>
+                  Consulter</button></a><br>
+              <h6 id="note3"></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br> <br>
+
+
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <script src="../js/livres.js">
+
+  </script>
 </body>
+
 </html>

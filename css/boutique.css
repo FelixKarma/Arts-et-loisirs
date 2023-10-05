@@ -85,9 +85,10 @@ margin-bottom: 20%;
   justify-content: space-evenly;
   
 } 
-#cine{
-  margin-left: 33%;
+#cine, #livre {
+ margin: left:5%;
 }
+
 #logo{
   margin-left: 50%;
 }
