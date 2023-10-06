@@ -48,6 +48,9 @@
   }
   body{
     background-image: url(../img/loisircreatif.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
   }
   #art{
     text-decoration: underline;

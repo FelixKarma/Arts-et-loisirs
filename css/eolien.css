@@ -56,6 +56,9 @@ header {
     background-image: url(../img/fond2.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
     
   }
 
